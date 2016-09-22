@@ -6,7 +6,7 @@ This repo is an example of how to build cross-platform apps that serve content f
 2. Web is fully responsive down to mobile w/ [Bootstrap](http://getbootstrap.com) frontend.<br />
 3. Images are easily manipulated for different device / browser requirements via the Cosmic JS provided [Imgix](https://www.imgix.com/) integration.
 
-Sign up for [Cosmic JS](https://cosmicjs.com) to install the demo content and deploy this website.
+Sign up for [Cosmic JS](https://cosmicjs.com) to install the app, add / edit content and deploy the web app.
 
 ** Before trying to run any of the examples, make sure you are connecting to the example bucket `cross-platform-blog` or have imported the bucket.json in the root of this repo to your own bucket in Cosmic JS.
 ##Web
