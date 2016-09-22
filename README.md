@@ -51,5 +51,5 @@ Run the Android command inside the native folder:
 ```
 react-native run-android
 ```
-###Questions
+##Questions
 For any questions, feel free to reach out to us on the [Cosmic JS website](https://cosmicjs.com/) through the Intercom chat bubble on the bottom right side of the page.  Or join the [Cosmic JS Community on Slack](https://cosmicjs.com/community).
