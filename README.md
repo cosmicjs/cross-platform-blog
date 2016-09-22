@@ -8,6 +8,7 @@ This repo is an example of how to build cross-platform apps that serve content f
 
 Sign up for [Cosmic JS](https://cosmicjs.com) to install the demo content and deploy this website.
 
+##Web
 ###Get started Web
 ```
 git clone https://github.com/cosmicjs/cross-platform-blog
@@ -24,12 +25,13 @@ Go to [http://localhost:5000](http://localhost:5000).
 COSMIC_BUCKET=your-bucket-slug npm start
 ```
 Go to [http://localhost:3000](http://localhost:3000).
+##Native
 ###Get started Native
 ```
 cd cross-platform-blog/native
 npm install
 ```
-###Config React Native
+###Config Native
 Edit native/config.js to point to your bucket slug on Cosmic JS.
 ```
 export default {
