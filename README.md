@@ -8,6 +8,7 @@ This repo is an example of how to build cross-platform apps that serve content f
 
 Sign up for [Cosmic JS](https://cosmicjs.com) to install the demo content and deploy this website.
 
+** Before trying to run any of the examples, make sure you are connecting to the example bucket `cross-platform-blog` or have imported the bucket.json in the root of this repo to your own bucket in Cosmic JS.
 ##Web
 ###Get started Web
 ```
