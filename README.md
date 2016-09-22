@@ -31,7 +31,7 @@ Go to [http://localhost:3000](http://localhost:3000).
 cd cross-platform-blog/native
 npm install
 ```
-###Config Native
+###Config
 Edit native/config.js to point to your bucket slug on Cosmic JS.
 ```
 export default {
