@@ -10,18 +10,18 @@ Sign up for [Cosmic JS](https://cosmicjs.com) to install the demo content and de
 
 ** Before trying to run any of the examples, make sure you are connecting to the example bucket `cross-platform-blog` or have imported the bucket.json in the root of this repo to your own bucket in Cosmic JS.
 ##Web
-###Get started with Web
+###Get started with web
 ```
 git clone https://github.com/cosmicjs/cross-platform-blog
 cd cross-platform-blog/web
 npm install
 ```
-###Run Web in development
+###Run web in development
 ```
 npm run development
 ```
 Go to [http://localhost:5000](http://localhost:5000).
-###Run Web in production
+###Run web in production
 ```
 COSMIC_BUCKET=your-bucket-slug npm start
 ```
