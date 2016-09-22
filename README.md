@@ -3,7 +3,9 @@ A cross-platform blog demonstrates how to serve content from Cosmic JS to iOS, A
 ##Features
 1. Fully responsive down to mobile w/ [Bootstrap](http://getbootstrap.com) frontend<br />
 2. Both iOS and Android share the same React native codebase.  Learn once, write everywhere<sup>TM</sup>.
+
 Sign up for [Cosmic JS](https://cosmicjs.com) to install the demo content and deploy this website.
+
 ###Get started
 ```
 git clone https://github.com/cosmicjs/cross-platform-blog
