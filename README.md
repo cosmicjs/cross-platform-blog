@@ -1,6 +1,6 @@
 #Cross-Platform Blog
 A cross-platform blog demonstrates how to serve content from Cosmic JS to iOS, Android and Web. iOS, Android are built using React Native.  Web runs on a light Node.js web app. Content is served via the Cosmic JS CMS API.
-##Features
+###Features
 1. Fully responsive down to mobile w/ [Bootstrap](http://getbootstrap.com) frontend<br />
 2. Both iOS and Android share the same React native codebase.  Learn once, write everywhere<sup>TM</sup>.
 
