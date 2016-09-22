@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>{{ cosmic.object.header.metafield.site_title.value }}</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+  {{^ is_dev }}
+    <link rel="stylesheet" href="/css/combined.min.css" />
+  {{/ is_dev }}
+  {{# is_dev }}
+    <link rel="stylesheet" href="/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/css/css-helpers.min.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+  {{/ is_dev }}
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <meta name="description" content="{{ page.metafield.seo_description.value }}">
+  <link rel="icon" type="image/png" href="{{ cosmic.object.header.metafield.favicon.imgix_url }}?w=32" sizes="32x32" />
+  <link rel="icon" type="image/png" href="{{ cosmic.object.header.metafield.favicon.imgix_url }}?w=16" sizes="16x16" />
+</head>
+<body>
+<header id="header">
+  <div class="container pt-10 pb-5 text-center h-80">
+    <a href="/">
+      <img class="h-60" src="{{ cosmic.object.header.metafield.logo.imgix_url }}?w=400">
+    </a>
+  </div>
+  <nav class="navbar navbar-default">
+    <div class="container text-center">
+      <h1 class="mt-20 mb-20">
+        <a href="/">{{ cosmic.object.blog.metafield.blog_title.value }}</a>
+      </h1>
+    </div><!-- /.container-fluid -->
+  </nav>
+</header>
