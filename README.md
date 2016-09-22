@@ -39,15 +39,13 @@ export default {
 }
 ```
 ###Run iOS
-Navigate to the native folder, then run the iOS command:
+Run the iOS command inside the native folder:
 ```
-cd native
 react-native run-ios
 ```
 ###Run Android
-Navigate to the native folder, then run the Android command:
+Run the Android command inside the native folder:
 ```
-cd native
 react-native run-android
 ```
 If you have any issues getting the React Native working, check out the [React Native docs](https://facebook.github.io/react-native/).
