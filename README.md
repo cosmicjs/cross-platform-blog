@@ -10,7 +10,7 @@ Sign up for [Cosmic JS](https://cosmicjs.com) to install the demo content and de
 
 ** Before trying to run any of the examples, make sure you are connecting to the example bucket `cross-platform-blog` or have imported the bucket.json in the root of this repo to your own bucket in Cosmic JS.
 ##Web
-###Get started Web
+###Get started with Web
 ```
 git clone https://github.com/cosmicjs/cross-platform-blog
 cd cross-platform-blog/web
@@ -28,7 +28,7 @@ COSMIC_BUCKET=your-bucket-slug npm start
 Go to [http://localhost:3000](http://localhost:3000).
 ##Native
 If you are new to React Native, make sure you check out the [React Native docs](https://facebook.github.io/react-native/) to make sure you have everything set up properly.
-###Get started Native
+###Get started with Native
 ```
 cd cross-platform-blog/native
 npm install
