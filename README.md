@@ -32,13 +32,13 @@ export default {
   COSMIC_BUCKET: 'your-bucket-slug'
 }
 ```
-###Run React Native iOS
+###Run iOS
 Navigate to the native folder, then run the iOS command:
 ```
 cd native
 react-native run-ios
 ```
-###Run React Native Android
+###Run Android
 Navigate to the native folder, then run the Android command:
 ```
 cd native
