@@ -15,7 +15,6 @@ cd cross-platform-blog/web
 npm install
 ```
 ###Run Web in development
-Create a `config/development.js` file and match it to `config/production.js` with your values.
 ```
 npm run development
 ```
@@ -26,7 +25,7 @@ COSMIC_BUCKET=your-bucket-slug npm start
 ```
 Go to [http://localhost:3000](http://localhost:3000).
 ###Config React Native
-Edit config.js to point to your bucket slug on Cosmic JS
+Edit native/config.js to point to your bucket slug on Cosmic JS.
 ```
 export default {
   COSMIC_BUCKET: 'your-bucket-slug'
