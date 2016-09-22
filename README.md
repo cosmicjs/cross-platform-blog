@@ -28,7 +28,7 @@ COSMIC_BUCKET=your-bucket-slug npm start
 Go to [http://localhost:3000](http://localhost:3000).
 ##Native
 If you are new to React Native, make sure you check out the [React Native docs](https://facebook.github.io/react-native/) to make sure you have everything set up properly.
-###Get started with Native
+###Get started with native
 ```
 cd cross-platform-blog/native
 npm install
