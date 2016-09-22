@@ -8,10 +8,15 @@ This repo is an example of how to build cross-platform apps that serve content f
 
 Sign up for [Cosmic JS](https://cosmicjs.com) to install the demo content and deploy this website.
 
-###Get started
+###Get started Web
 ```
 git clone https://github.com/cosmicjs/cross-platform-blog
 cd cross-platform-blog/web
+npm install
+```
+###Get started Native
+```
+cd cross-platform-blog/native
 npm install
 ```
 ###Run Web in development
