@@ -27,6 +27,7 @@ Edit config.js to point to your bucket slug on Cosmic JS
 export default {
   COSMIC_BUCKET: 'your-bucket-slug'
 }
+```
 ###Run React Native iOS
 Navigate to the native folder, then run the iOS command:
 ```
