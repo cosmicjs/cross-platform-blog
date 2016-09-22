@@ -1,6 +1,6 @@
 #Cross-Platform Blog
 ![alt tag](https://cosmicjs.com/uploads/21e23d30-8076-11e6-a994-973764f7d6d1-cross-platform-blog.jpg)
-This repo is an example of how to build cross-platform content using [Cosmic JS](https://cosmicjs.com). The iOS and Android apps in this repo are built using React Native and the web app runs on a light Node.js web server, all with content served from the [Cosmic JS CMS API](https://cosmicjs.com).  Create your content once, deliver everywhere.
+This repo is an example of how to build cross-platform apps with content powered by [Cosmic JS](https://cosmicjs.com). The iOS and Android apps in this repo are built using React Native and the web app runs on a light Node.js web server, all with content served from the [Cosmic JS CMS API](https://cosmicjs.com).  Create your content once, deliver everywhere.
 ###Features
 1. Native iOS and Android apps share the same React Native codebase.  Learn once, write anywhere<sup>TM</sup>.
 2. Web is fully responsive down to mobile w/ [Bootstrap](http://getbootstrap.com) frontend.<br />
