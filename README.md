@@ -14,11 +14,6 @@ git clone https://github.com/cosmicjs/cross-platform-blog
 cd cross-platform-blog/web
 npm install
 ```
-###Get started Native
-```
-cd cross-platform-blog/native
-npm install
-```
 ###Run Web in development
 ```
 npm run development
@@ -29,6 +24,11 @@ Go to [http://localhost:5000](http://localhost:5000).
 COSMIC_BUCKET=your-bucket-slug npm start
 ```
 Go to [http://localhost:3000](http://localhost:3000).
+###Get started Native
+```
+cd cross-platform-blog/native
+npm install
+```
 ###Config React Native
 Edit native/config.js to point to your bucket slug on Cosmic JS.
 ```
