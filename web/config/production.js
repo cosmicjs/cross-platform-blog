@@ -1,4 +1,10 @@
 // config.js
 export default {
-  COSMIC_BUCKET: process.env.COSMIC_BUCKET
+  cosmicjs: {
+    bucket: {
+      slug: process.env.COSMIC_BUCKET,
+      read_key: process.env.COSMIC_READ_KEY,
+      write_key: process.env.COSMIC_WRITE_KEY
+    }
+  }
 }

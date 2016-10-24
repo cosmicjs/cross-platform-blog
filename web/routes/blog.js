@@ -2,7 +2,7 @@
 import Cosmic from 'cosmicjs'
 module.exports = (app, config, partials) => {
   app.get('/', (req, res) => {
-    Cosmic.getObjects({ bucket: { slug: config.COSMIC_BUCKET } }, (err, response) => {
+    Cosmic.getObjects(config.cosmicjs.bucket, (err, response) => {
       res.locals.cosmic = response
       const posts = response.objects.type.posts
       res.locals.posts = posts
@@ -16,7 +16,7 @@ module.exports = (app, config, partials) => {
   })
   app.get('/blog/:slug', (req, res) => {
     const slug = req.params.slug
-    Cosmic.getObjects({ bucket: { slug: config.COSMIC_BUCKET } }, (err, response) => {
+    Cosmic.getObjects(config.cosmicjs.bucket, (err, response) => {
       res.locals.cosmic = response
       const posts = response.objects.type.posts
       posts.forEach(page => {
